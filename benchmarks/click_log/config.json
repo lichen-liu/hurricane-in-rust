@@ -1,0 +1,36 @@
+{
+    "chunk_config": {
+        "data_size": 8388608
+    },
+    "frontend_config": {
+        "app_master_socket_addr": "169.254.5.29:11111",
+        "num_task_manager": 2,
+        "num_physical_node": 2,
+        "is_cloning_enabled": true,
+        "task_manager_tick_interval": 600,
+        "cloning_time_threshold": 1000,
+        "task_manager_fetch_task_interval": 250,
+        "cloning_cpu_load_threshold": 60.0,
+        "use_conf_parallelism": true,
+        "workers_parallelism": [],
+        "hurricane_work_io_tcp_nodelay": true,
+        "task_manager_connection_retry_attempt": 60,
+        "hurricane_work_io_connection_retry_attempt": 60
+    },
+    "backend_config": {
+        "hurricane_io_socket_addrs": [
+            "169.254.5.29:22221",
+            "169.254.5.29:22220",
+            "169.254.248.101:22220"
+        ],
+        "hurricane_io_tcp_nodelay": true,
+        "hurricane_io_init_chunks": [
+            [
+                [
+                    "garbage",
+                    500
+                ]
+            ]
+        ]
+    }
+}

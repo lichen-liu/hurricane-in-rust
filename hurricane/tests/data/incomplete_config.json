@@ -1,0 +1,13 @@
+{
+    "frontend_config": {
+        "app_master_socket_addr": "127.0.0.1:12345",
+        "task_manager_tick_interval": 2,
+        "frontend_heart_beat_interval": 4,
+        "cloning_cpu_load_threshold": 80.0,
+        "cloning_time_threshold": 3,
+        "use_conf_parallelism": false
+    },
+    "backend_config": {
+        "backend_heart_beat_interval": 2
+    }
+}

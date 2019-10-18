@@ -1,0 +1,16 @@
+[package]
+name = "click_log"
+version = "0.1.0"
+authors = ["Lichen Liu <issac.liu@mail.utoronto.ca>"]
+edition = "2018"
+
+[dependencies]
+actix = "0.7"
+bit-vec = "0.5"
+env_logger = "0.6"
+futures = "0.1"
+log = "0.4"
+rand = "0.6"
+
+[dependencies.hurricane]
+path = "../../hurricane"

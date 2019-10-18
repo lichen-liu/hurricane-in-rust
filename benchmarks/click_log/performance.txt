@@ -1,0 +1,18 @@
+8MB * 10 1 ip in 1 country
+1be 1fe auto-parallel - 147.1917401s
+1be 3fe 1-parallel    - 12.9743778s
+1be 3fe 2-parallel    - 15.7281627s
+1be 3fe auto-parallel - 64.0244874s
+2be 3fe auto-parallel - 65.5407893s
+
+8MB * 10 10000 ip in 1 country
+2be 3fe auto-parallel - 65.1326177s
+
+8MB * 10 uniform distribution
+2be 3fe auto-parallel - 90.778991s
+2be 3fe 1-parallel    - 17.5405216s
+1be 4fe 1-parallel    - 15.2283433s
+
+8MB * 500 uniform distribution (includes data generation time)
+1be 4fe 1-par-nc_dg  - 150.9124735s - 45.9665739s
+1be 4fe 1-par        - 122.6774827s

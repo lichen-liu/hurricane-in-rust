@@ -1,0 +1,16 @@
+{
+    "frontend_config": {
+        "app_master_socket_addr": "127.0.0.1:12345",
+        "num_task_manager": 1,
+        "num_physical_node": 1,
+        "is_cloning_enabled": true,
+        "task_manager_tick_interval": 1,
+        "cloning_time_threshold": 2
+    },
+    "backend_config": {
+        "hurricane_io_socket_addrs": [
+            "127.0.0.1:54321"
+        ],
+        "backend_heart_beat_interval": 2
+    }
+}
